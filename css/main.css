@@ -1,0 +1,76 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  height: 100vh;
+  background-color: #000;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #ffffff;
+}
+
+body .container {
+  background-color: #121116;
+  text-align: center;
+  width: 96vw;
+}
+
+body .container .logo {
+  margin-top: 70px;
+}
+
+body .container .text {
+  font-size: 20px;
+  margin-top: 40px;
+  font-weight: 400;
+}
+
+body .container hr {
+  margin-top: 20px;
+  background-color: #fff;
+  width: 230px;
+  height: 1px;
+  border: none;
+}
+
+body .container .copyright {
+  margin-top: 70px;
+  font-weight: 500;
+  font-size: 15px;
+  margin-bottom: 25px;
+}
+
+body .container .copyright a {
+  color: #04bef1;
+  text-decoration: none;
+}
+
+body .container .social {
+  margin-top: 15px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+body .container .social__btn {
+  display: inline-block;
+  margin: 0 15px;
+}

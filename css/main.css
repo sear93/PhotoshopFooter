@@ -1,6 +1,8 @@
 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 body {
@@ -29,25 +31,25 @@ body .container {
 }
 
 body .container .logo {
-  margin-top: 70px;
+  margin-top: 115px;
 }
 
 body .container .text {
   font-size: 20px;
-  margin-top: 40px;
+  margin-top: 0px;
   font-weight: 400;
 }
 
 body .container hr {
-  margin-top: 20px;
   background-color: #fff;
   width: 230px;
   height: 1px;
   border: none;
+  margin: 20px auto;
 }
 
 body .container .copyright {
-  margin-top: 70px;
+  margin-top: 80px;
   font-weight: 500;
   font-size: 15px;
   margin-bottom: 25px;
@@ -77,4 +79,63 @@ body .container .social__btn {
 
 body .container .social__btn a {
   color: #fff;
+}
+
+.cards {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.cards .card {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 25%;
+  margin: 0 15px;
+}
+
+.cards .card__img {
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  background-color: #ffae00;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  cursor: pointer;
+  font-size: 30px;
+}
+
+.cards .card__img:hover {
+  -webkit-border-radius: 25px 0;
+  border-radius: 25px 0;
+}
+
+.cards .card__heading {
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 400;
+  margin-top: 40px;
+}
+
+.cards .card__text {
+  margin-top: 40px;
+  font-size: 14px;
 }
